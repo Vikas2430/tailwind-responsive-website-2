@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <title>My Page</title>
+</head>
+
+<body>
+  <header>
+    <div class="px-4 sm:px-6 lg:px-8 mt-4 sm:mt-6 lg:mt-8 md:px-4">
+    <div class="absolute w-24 sm:w-32 lg:w-40 right-4 sm:right-6 lg:right-8 top-4 sm:top-6 lg:top-8">
+      <img src="../assets/nav_bg.png" alt="" class="w-full h-auto" />
+    </div>
+    <nav class="container mx-auto bg-[#1B1C37] py-3 sm:py-4 px-4 sm:px-6 lg:px-8 rounded-lg flex items-center justify-between shadow-md relative">
+      <div class="flex items-center space-x-2 sm:space-x-4">
+        <div class="w-6 sm:w-7 rounded-full text-white">
+          LOGO
+        </div>
+        <span class="text-white font-semibold text-sm sm:text-base lg:text-lg">Vikas Sharma</span>
+      </div>
+
+      <button id="mobile-menu-button" class="lg:hidden text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+
+      <div id="nav-links" class="hidden lg:flex items-center space-x-8">
+        <a href="#" class="text-white font-semibold hover:text-[#7F88F5] transition-colors relative text-base">Home</a>
+        <a href="#" class="text-white font-semibold hover:text-[#7F88F5] text-base">Skills</a>
+        <a href="#" class="text-white font-semibold hover:text-[#7F88F5] text-base">Portfolio</a>
+        <a href="#" class="text-white font-semibold hover:text-[#7F88F5] text-base">Blog</a>
+      </div>
+
+      <a href="#contact"
+        class="hidden lg:inline-block bg-[#7F88F5] text-white font-semibold py-2 px-8 rounded-md hover:bg-[#5a64d8] transition-colors text-base">
+        Contact Me
+      </a>
+    </nav>
+
+
+    <div id="mobile-menu" class="hidden lg:hidden bg-[#1B1C37] mt-2 py-4 px-4 rounded-lg shadow-md">
+      <a href="#" class="block text-white font-semibold hover:text-[#7F88F5] py-2">Home</a>
+      <a href="#" class="block text-white font-semibold hover:text-[#7F88F5] py-2">Skills</a>
+      <a href="#" class="block text-white font-semibold hover:text-[#7F88F5] py-2">Portfolio</a>
+      <a href="#" class="block text-white font-semibold hover:text-[#7F88F5] py-2">Blog</a>
+      <a href="#contact"
+        class="block bg-[#7F88F5] text-white font-semibold py-2 px-4 rounded-md hover:bg-[#5a64d8] transition-colors text-center mt-4">
+        Contact Me
+      </a>
+    </div>
+  </div>
+  </header>
+  <section class="bg-white">
+    <div class="container">
+      <div class="flex flex-col-reverse lg:flex-row items-center justify-between">
+      <div class="lg:w-1/2 relative pl-6 py-12 md:py-16 px-4 md:px-8  mx-auto">
+        <div class="absolute right-[-100%] md:right-[-120%] lg:right-[-150%] hidden">
+          <img src="../assets/circle-pattern.svg" alt="" class="w-[178px] md:w-[228px] lg:w-[278px]" />
+        </div>
+        <h1 class="text-[55px] md:text-[96px] lg:text-[96px] font-bold leading-[1.04] mb-8 md:mb-10 lg:mb-14">
+          Hi, I am <span class="whitespace-nowrap">Cristian 🎨</span>
+        </h1>
+        <div class="absolute top-[8%] left-[55%] md:top-[10%] md:left-[46%] lg:left-[57%] lg:top-[8%]">
+          <img src="../assets/hero-bg-1.png" alt="" class="w-[50px] md:w-[60px] lg:w-[67px]" />
+        </div>
+        <p class="text-black text-[14px] max-w-[375px] mb-6 md:mb-12">
+          I am a UI/UX Designer, I like to make interfaces simple and
+          aesthetically pleasing for users; The idea is not to create an
+          interface for creating it, it is that users prefer you because your
+          product is easy to use.
+        </p>
+        <a
+          class="bg-gradient-to-r from-[#7F88F5] to-[#9B59B6] text-white font-semibold py-3 px-6 md:px-8 rounded-[16px] hover:opacity-90 transition-opacity text-xl md:text-2xl leading-[1.5] inline-flex items-center cursor-pointer">
+          ¡Contact Me!
+          <div class="pl-3">
+            <img src="../assets/button-arrow.png" alt="Arrow" class="w-5 md:w-6" />
+          </div>
+        </a>
+        <div class="hidden absolute top-[70%] left-[-30%] md:top-[80%] md:left-[-40%] lg:top-[80%] lg:left-[-55%]">
+          <img src="../assets/circle-pattern.svg" alt="" class="w-[178px] md:w-[228px] lg:w-[278px]" />
+        </div>
+        <div class="absolute left-[55%] md:left-[35%] lg:left-[50%] top-[73%] md:top-[78%] lg:top-[77%]">
+          <img src="../assets/Arrow_01.svg" alt="" class="w-[140px] md:w-[160px] lg:w-[187px]" />
+        </div>
+      </div>
+      <div class="w-full lg:w-1/2 mb-8 lg:mb-0 lg:block sm:block md:hidden hidden ">
+        <img src="../assets/hero-img.png" alt="Illustration of Cristian working" class="w-full h-auto object-cover" />
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <section class="">
+    <div class="container">
+    <div class="max-w-7xl mx-auto relative py-16 px-4  lg:px-4">
+      <div class="absolute left-[-28%] lg:top-[7%] top-0 lg:block md:block hidden md:left-[-14%] md:top-0 md:z-[-1]">
+        <img src="../assets/circle-pattern.svg" alt="" class="w-[138px]" />
+      </div>
+      <h2 class="text-4xl pl-[10px] sm:text-5xl lg:text-[64px] font-bold bg-gradient-to-r from-[#B224EF] to-[#7579FF] bg-clip-text text-transparent mb-12 md:pl-10 lg:p-0">
+        Skills
+      </h2>      
+      <div class="absolute md:top-0 md:left-[10%] md:w-[156px]  w-[85px] top-[3%] left-[16%]  lg:block lg:top-0 lg:left-[6%]">
+        <img src="../assets/skill-heading-icon.svg" alt="" class="" />
+      </div>
+      <div class="w-full lg:w-[1258px] h-[2px] bg-[#EDEEFF] mx-auto"></div>
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 lg:gap-[24px] mt-[43px] skill-grid">
+        <div class="grid gap-4 place-items-center">
+          <div class="relative sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px]">
+            <img class="w-full h-full object-contain" src="../assets/90-gray-skill.svg" alt="" />
+            <span
+              class="absolute inset-0 grid place-items-center text-2xl sm:text-4xl font-bold text-gray-700">90%</span>
+            <div class="absolute sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px]  top-0">
+              <img src="../assets/90-bluee-skill.svg" alt="" class="w-full h-full object-contain" />
+            </div>
+          </div>
+          <p class="text-lg sm:text-2xl text-[#1B1C37] w-[150px] text-center">
+            Figma / Adobe XD
+          </p>
+        </div>
+
+        <div class="grid gap-4 place-items-center">
+          <div class="relative sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px]">
+            <img class="w-full h-full object-contain" src="../assets/80-gray-skill.svg" alt="" />
+            <span
+              class="absolute inset-0 grid place-items-center text-2xl sm:text-4xl font-bold text-gray-700">80%</span>
+            <div class="absolute sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px] top-0 right-0 lg:top-0 lg:right-[-5%] md:top-0 md:right-[-5%]">
+              <svg width="100%" height="100%" viewBox="0 0 197 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.3749 49.8993C8.39412 44.0418 7.41288 33.5215 14.2479 27.4945C27.4057 15.8922 43.2126 7.5499 60.3887 3.26745C82.9284 -2.35232 106.669 -0.69221 128.207 8.00983C149.745 16.7119 167.976 32.0091 180.285 51.7091C192.595 71.409 198.353 94.5004 196.732 117.674C195.112 140.847 186.197 162.912 171.265 180.707C156.333 198.502 136.151 211.113 113.611 216.733C91.0713 222.352 67.331 220.692 45.7928 211.99C29.38 205.359 14.888 194.898 3.47297 181.577C-2.45668 174.657 -0.0207806 164.376 7.70725 159.547C15.4353 154.718 25.5086 157.232 31.8706 163.756C39.2751 171.35 48.2114 177.376 58.155 181.393C73.2317 187.485 89.8499 188.647 105.628 184.713C121.406 180.779 135.533 171.951 145.985 159.495C156.438 147.038 162.678 131.593 163.812 115.371C164.947 99.1502 160.917 82.9863 152.3 69.1964C143.683 55.4064 130.922 44.6983 115.845 38.6069C100.768 32.5155 84.1499 31.3534 68.3721 35.2872C57.9662 37.8817 48.2782 42.6049 39.8889 49.0939C32.6808 54.6693 22.3556 55.7569 15.3749 49.8993Z"
+                  fill="#7579FF" />
+              </svg>
+            </div>
+          </div>
+          <p class="text-lg sm:text-2xl text-[#1B1C37]">UI Design</p>
+        </div>
+
+        <div class="sm:block md:block lg:hidden w-full col-span-2 h-[2px] bg-[#EDEEFF] my-6 md:w-[551px] md:ml-[105px]"></div>
+
+        <div class="grid gap-4 place-items-center">
+          <div class="relative sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px] ">
+            <img class="w-full h-full object-contain" src="../assets/80-gray-skill.svg" alt="" />
+            <span
+              class="absolute inset-0 grid place-items-center text-2xl sm:text-4xl font-bold text-gray-700">80%</span>
+            <div class="absolute sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px] top-0 right-0 lg:top-0 lg:right-[-5%] md:top-0 md:right-[-5%]">
+              <svg width="100%" height="100%" viewBox="0 0 197 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.3749 49.8993C8.39412 44.0418 7.41288 33.5215 14.2479 27.4945C27.4057 15.8922 43.2126 7.5499 60.3887 3.26745C82.9284 -2.35232 106.669 -0.69221 128.207 8.00983C149.745 16.7119 167.976 32.0091 180.285 51.7091C192.595 71.409 198.353 94.5004 196.732 117.674C195.112 140.847 186.197 162.912 171.265 180.707C156.333 198.502 136.151 211.113 113.611 216.733C91.0713 222.352 67.331 220.692 45.7928 211.99C29.38 205.359 14.888 194.898 3.47297 181.577C-2.45668 174.657 -0.0207806 164.376 7.70725 159.547C15.4353 154.718 25.5086 157.232 31.8706 163.756C39.2751 171.35 48.2114 177.376 58.155 181.393C73.2317 187.485 89.8499 188.647 105.628 184.713C121.406 180.779 135.533 171.951 145.985 159.495C156.438 147.038 162.678 131.593 163.812 115.371C164.947 99.1502 160.917 82.9863 152.3 69.1964C143.683 55.4064 130.922 44.6983 115.845 38.6069C100.768 32.5155 84.1499 31.3534 68.3721 35.2872C57.9662 37.8817 48.2782 42.6049 39.8889 49.0939C32.6808 54.6693 22.3556 55.7569 15.3749 49.8993Z"
+                  fill="#7579FF" />
+              </svg>
+            </div>
+          </div>
+          <p class="text-lg sm:text-2xl text-[#1B1C37] w-[150px] text-center">
+            Information Architecture
+          </p>
+        </div>
+
+        <div class="grid gap-4 place-items-center">
+          <div class="relative sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px]">
+            <img class="w-full h-full object-contain" src="../assets/70-gray-skill.png" alt="" />
+            <span
+              class="absolute inset-0 grid place-items-center text-2xl sm:text-4xl font-bold text-gray-700">70%</span>
+            <div class="absolute sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px] top-0 right-0 lg:top-0 lg:right-[-5%] md:top-0 md:right-[-5%]">
+              <img src="../assets/70-blue-skill.png" alt="" class="w-full h-full object-contain" />
+            </div>
+          </div>
+          <p class="text-lg sm:text-2xl text-[#1B1C37]">UX Design</p>
+        </div>
+        <div class=" md:block lg:hidden w-full col-span-2 h-[2px] bg-[#EDEEFF] my-6 md:w-[551px] md:ml-[105px]"></div>
+        <div class="hidden md:hidden lg:block w-full col-span-5 h-[2px] bg-[#EDEEFF] my-6"></div>
+        <div class="absolute lg:w-[278px] w-[106px] md:w-[278px]  right-[94%] top-[53%] lg:top-[53%] lg:left-[99%] lg:block md:block md:right-[85%] md:top-[52%]">
+          <img src="../assets/circle-pattern.svg" alt="" class="w-full" />
+        </div>
+        <div class="grid gap-4 place-items-center">
+          <div class="relative sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px]">
+            <img class="w-full h-full object-contain" src="../assets/70-gray-skill.png" alt="" />
+            <span
+              class="absolute inset-0 grid place-items-center text-2xl sm:text-4xl font-bold text-gray-700">70%</span>
+            <div class="absolute sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px] top-0 right-0 lg:top-0 lg:right-[-5%] md:top-0 md:right-[-5%]">
+              <img src="../assets/70-blue-skill.png" alt="" class="w-full h-full object-contain" />
+            </div>
+          </div>
+          <p class="text-lg sm:text-2xl text-[#1B1C37]">Prototyping</p>
+        </div>
+
+        <div class="grid gap-4 place-items-center">
+          <div class="relative sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px]">
+            <img class="w-full h-full object-contain" src="../assets/70-gray-skill.png" alt="" />
+            <span
+              class="absolute inset-0 grid place-items-center text-2xl sm:text-4xl font-bold text-gray-700">70%</span>
+            <div class="absolute sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px] top-0 right-0 lg:top-0 lg:right-[-5%] md:top-0 md:right-[-5%]">
+              <img src="../assets/70-blue-skill.png" alt="" class="w-full h-full object-contain" />
+            </div>
+          </div>
+          <p class="text-lg sm:text-2xl text-[#1B1C37]">Box Model</p>
+        </div>
+
+        <div class=" sm:block md:block lg:hidden lg:w-full md:w-[551px] md:ml-[105px] col-span-2 h-[2px] bg-[#EDEEFF] my-6"></div>
+
+        <div class="grid gap-4 place-items-center">
+          <div class="relative sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px]">
+            <img class="w-full h-full object-contain" src="../assets/70-gray-skill.png" alt="" />
+            <span
+              class="absolute inset-0 grid place-items-center text-2xl sm:text-4xl font-bold text-gray-700">70%</span>
+            <div class="absolute sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px] top-0 right-0 lg:top-0 lg:right-[-5%] md:top-0 md:right-[-5%]">
+              <img src="../assets/70-blue-skill.png" alt="" class="w-full h-full object-contain" />
+            </div>
+          </div>
+          <p class="text-lg sm:text-2xl text-[#1B1C37] sm:w-[200px] w-[120px] text-center">
+            Business Model Canvas
+          </p>
+        </div>
+
+        <div class="grid gap-4 place-items-center">
+          <div class="relative sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px]">
+            <img class="w-full h-full object-contain" src="../assets/70-gray-skill.png" alt="" />
+            <span
+              class="absolute inset-0 grid place-items-center text-2xl sm:text-4xl font-bold text-gray-700">70%</span>
+            <div class="absolute sm:w-[119px] h-[119px] md:w-[220px] md:h-[220px] lg:h-[220px] lg:w-[220px] top-0 right-0 lg:top-0 lg:right-[-5%] md:top-0 md:right-[-5%]">
+              <img src="../assets/70-blue-skill.png" alt="" class="w-full h-full object-contain" />
+            </div>
+          </div>
+          <p class="text-lg sm:text-2xl text-[#1B1C37]">Design Systems</p>
+        </div>
+      </div>
+      <div class="absolute w-[278px] h-[137px] bottom-[1%] left-[-21%] hidden lg:block">
+        <img src="../assets/circle-pattern.svg" alt="" class="w-full h-full" />
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class=" bg-[#1B1C37] relative">
+    <div class="absolute top-[100%] left-0 w-[100vw] max-h-[200px]">
+      <img src="../assets/about-bg.png" alt="" class="w-full block max-h-[300px] ">
+    </div>
+    <div class="container">
+      <div class="relative">
+      <div class="absolute z-0 ">
+        <img src="../assets/about-cross-bg.png" alt="">
+      </div>
+      <div class="absolute w-[40px] top-[10%] sm:top-[25%] md:left-[-1%] lg:w-[169px] hidden sm:block">
+        <img src="../assets/white-cricle.svg" alt="" />
+      </div>
+      <div class="absolute w-[40px] top-[40%] sm:top-[25%] lg:w-[169px] left-[2%] sm:hidden">
+        <img src="../assets/4-white-cricle-sm.svg" alt="" />
+      </div>
+      <h1 class="text-white text-[24px] sm:text-[64px] font-bold  lg:pt-[72px] text-center pt-8 md:pl-[60px] lg:pl-0">About Me</h1>
+      <div class="w-full relative z-0">
+        <img src="../assets/about-main.png" alt="">
+        <div class="absolute w-[48px] right-[1%] bottom-[-2%] sm:hidden">
+          <img src="../assets/4-white-cricle-sm.svg" alt="" class="w-full h-full">
+        </div>
+        <div class="absolute w-[199px] md:w-[112px] md:bottom-[-7%] right-[-1%] md:right-[-8%] lg:right-[-1%] hidden sm:block">
+          <img src="../assets/4-white-cricle.svg" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="">
+    <div class="container">
+    <div class="relative mx-auto py-16 px-4 sm:px-6 lg:px-8">
+    <div class="lg:mt-32 sm:mb-8 md:mb-10 relative">
+      <h1 class="text-4xl sm:text-5xl md:text-[64px] font-bold pl-4 sm:pl-6 md:pl-[50px] bg-gradient-to-r from-[#B224EF] to-[#7579FF] text-transparent bg-clip-text pb-[52px] lg:pb-[56px]">
+        Portfolio
+      </h1>
+      <div class="absolute w-[100px] sm:w-[130px] md:w-[166px] left-[10%] top-[41%] lg:top-[52%] lg:left-[10%] md:top-[57%] md:left-[10%]">
+        <img src="../assets/portfolio-arc.svg" alt="Portfolio arc" class="w-full h-auto" />
+      </div>
+    </div>
+    <div class="w-full sm:w-[90%] md:w-[1198px] h-[2px] bg-[#EDEEFF] mb-6 sm:mb-8 md:mb-11 mx-auto"></div>
+      <div class="">
+        <div class="swiper portfolio-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="bg-white relative rounded-[20px] sm:rounded-[30px] md:rounded-[40px] shadow w-full  flex flex-col justify-end aspect-[5.18/2.76] max-h-[270px] px-12 pb-11">
+                <div class="w-full absolute px-12 z-[1] top-0 left-0 -translate-y-1/2 max-h-64">
+                  <img src="../assets/portfolio-img-1.png" alt="Eventos Premium" class="w-full h-full flex max-h-64 rounded-[20px] sm:rounded-[30px] md:rounded-[40px]" />
+                </div>
+                <div class="text-start px-1">
+                  <h4 class="text-xl pb-[5px] sm:text-2xl line-clamp-1 font-bold bg-gradient-to-r from-[#B224EF] to-[#7579FF] text-transparent bg-clip-text">
+                    Eventos absolute absolute 
+                  </h4>
+                  <div class="w-[200px] h-[1px] bg-[#EDEEFF]"></div>
+                    <p class="text-[#5F6073] text-sm sm:text-base pt-1">Elegante - Serio - Estatus</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-white relative rounded-[20px] sm:rounded-[30px] md:rounded-[40px] shadow w-full  flex flex-col justify-end aspect-[5.18/2.76] max-h-[270px] px-12 pb-11">
+                <div class="w-full absolute px-12 z-[1] top-0 left-0 -translate-y-1/2 max-h-64">
+                  <img src="../assets/portfolio-img-2.png" alt="Eventos Premium" class="w-full h-full flex max-h-64 rounded-[20px] sm:rounded-[30px] md:rounded-[40px]" />
+                </div>
+                <div class="text-start px-1">
+                  <h4 class="text-xl pb-[5px] sm:text-2xl line-clamp-1 font-bold bg-gradient-to-r from-[#B224EF] to-[#7579FF] text-transparent bg-clip-text">
+                    Mi Portal U
+                  </h4>
+                  <div class="w-[200px] h-[1px] bg-[#EDEEFF]"></div>
+                    <p class="text-[#5F6073] text-sm sm:text-base pt-1">Amigable - Dashboard - Simple</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-white relative rounded-[20px] sm:rounded-[30px] md:rounded-[40px] shadow w-full  flex flex-col justify-end aspect-[5.18/2.76] max-h-[270px] px-12 pb-11">
+                <div class="w-full absolute px-12 z-[1] top-0 left-0 -translate-y-1/2 max-h-64">
+                  <img src="../assets/portfolio-img-3.png" alt="Eventos Premium" class="w-full h-full flex max-h-64 rounded-[20px] sm:rounded-[30px] md:rounded-[40px]" />
+                </div>
+                <div class="text-start px-1">
+                  <h4 class="text-xl pb-[5px] sm:text-2xl line-clamp-1 font-bold bg-gradient-to-r from-[#B224EF] to-[#7579FF] text-transparent bg-clip-text">
+                    A&C App
+                  </h4>
+                  <div class="w-[200px] h-[1px] bg-[#EDEEFF]"></div>
+                    <p class="text-[#5F6073] text-sm sm:text-base pt-1">Elegante - Serio - Estatus</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-[#F0F1FF] sm:rounded-tl-[60px] rounded-tl-[30px] sm:rounded-tr-[60px] rounded-tr-[30px] relative">
+    <div class="container">
+        <div class="mx-auto text-center sm:py-6 lg:py-6 md:py-6 py-6">
+          <div class="flex justify-center space-x-8 mb-3 ">
+            <a href="#" class="text-[#7579FF] lg:w-10 md:w-10 w-[20px]">
+              <img src="../assets/instagram.svg" alt="Instagram" class="" />
+            </a>
+            <a href="#" class="text-[#7579FF] lg:w-10 md:w-10 w-[20px]">
+              <img src="../assets/facebook.svg" alt="Facebook" class="" />
+            </a>
+            <a href="#" class="text-[#7579FF] lg:w-10 md:w-10 w-[20px]">
+              <img src="../assets/linkedin.svg" alt="LinkedIn" class="" />
+            </a>
+            <a href="#" class="text-[#7579FF] lg:w-10 md:w-10 w-[20px]">
+              <img src="../assets/twitter.svg" alt="Twitter" class="" />
+            </a>
+          </div>
+          <p class="sm:text-[18px] text-[9px] text-[#5F6073]">
+            Vikas Sharma © 2024
+          </p>
+        </div>
+        <div class="absolute w-[128px] bottom-0 left-0 hidden sm:block">
+          <img src="../assets/black-dott-1.svg" alt=""/>
+        </div>
+        <div class="absolute w-[65px]  sm:hidden bottom-[10%]">
+          <img src="../assets/footer-sm-left.svg" alt=""/>
+        </div>
+        <div class="absolute w-[95px] left-[95%] top-[31%] hidden sm:block">
+          <img src="../assets/black-dott-2.svg" alt=""/>
+        </div>
+        <div class="absolute w-[48px] sm:hidden right-0 bottom-[60%]">
+          <img src="../assets/footer-sm-right.svg" alt=""/>
+        </div>
+    </div>
+  </footer>
+</body>
+<script src="./main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+</html>
+
+
+

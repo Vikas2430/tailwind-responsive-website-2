@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-custom-gradient {
+      background: linear-gradient(90deg, #B224EF 0%, #7579FF 100%);
+      filter: blur(3.75rem);
+    }
+  }
+  @media (max-width: 1024px) {
+    @layer utilities  {
+      .bg-custom-image {
+        background-image: url('../assets/about-bg.png');
+        width: 1512px;
+        height: 1071px;
+      }
+    }
+    
+  }
+  @media (min-width: 620px) {
+    @layer utilities {
+      .bg-custom-image {
+        background-image: url('../assets/about-bg.png');
+        width: 433px;
+      }
+    }
+  }  
+  @layer utilities {
+    .bg-custom-gradient-new {
+      background: linear-gradient(90deg, #B224EF 0%, #7579FF 100%);
+    }
+  }
+.swiper-slide {
+   height: auto;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper.portfolio-swiper {
+  overflow-x: clip;
+  overflow-y: visible;
+}
+.portfolio-swiper .swiper-slide{
+  padding-top: 150px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
