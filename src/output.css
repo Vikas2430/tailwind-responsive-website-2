@@ -642,16 +642,12 @@ video {
   left: 10%;
 }
 
-.left-\[14\%\] {
-  left: 14%;
+.left-\[16\%\] {
+  left: 16%;
 }
 
 .left-\[2\%\] {
   left: 2%;
-}
-
-.left-\[48\%\] {
-  left: 48%;
 }
 
 .left-\[55\%\] {
@@ -734,10 +730,6 @@ video {
   top: 8%;
 }
 
-.left-\[16\%\] {
-  left: 16%;
-}
-
 .z-0 {
   z-index: 0;
 }
@@ -764,10 +756,6 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.-mt-16 {
-  margin-top: -4rem;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -784,20 +772,12 @@ video {
   margin-bottom: 2rem;
 }
 
-.mb-\[60px\] {
-  margin-bottom: 60px;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-\[37px\] {
-  margin-top: 37px;
 }
 
 .mt-\[43px\] {
@@ -867,12 +847,12 @@ video {
   max-height: 16rem;
 }
 
-.max-h-\[270px\] {
-  max-height: 270px;
-}
-
 .max-h-\[200px\] {
   max-height: 200px;
+}
+
+.max-h-\[270px\] {
+  max-height: 270px;
 }
 
 .max-h-\[300px\] {
@@ -939,10 +919,6 @@ video {
   width: 20px;
 }
 
-.w-\[220px\] {
-  width: 220px;
-}
-
 .w-\[278px\] {
   width: 278px;
 }
@@ -981,10 +957,6 @@ video {
 
 .max-w-\[375px\] {
   max-width: 375px;
-}
-
-.max-w-\[518px\] {
-  max-width: 518px;
 }
 
 .-translate-y-1\/2 {
@@ -1066,26 +1038,6 @@ video {
 
 .rounded-md {
   border-radius: 0.375rem;
-}
-
-.rounded-\[30px\] {
-  border-radius: 30px;
-}
-
-.rounded-\[50px\] {
-  border-radius: 50px;
-}
-
-.rounded-\[90px\] {
-  border-radius: 90px;
-}
-
-.rounded-\[100px\] {
-  border-radius: 100px;
-}
-
-.rounded-\[130px\] {
-  border-radius: 130px;
 }
 
 .rounded-tl-\[30px\] {
@@ -1227,10 +1179,6 @@ video {
   padding-bottom: 5px;
 }
 
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -1253,10 +1201,6 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pt-\[10px\] {
-  padding-top: 10px;
 }
 
 .text-center {
@@ -1640,10 +1584,6 @@ video {
     z-index: -1;
   }
 
-  .md\:-mt-28 {
-    margin-top: -7rem;
-  }
-
   .md\:mb-10 {
     margin-bottom: 2.5rem;
   }
@@ -1843,14 +1783,6 @@ video {
     top: 80%;
   }
 
-  .lg\:-mt-32 {
-    margin-top: -8rem;
-  }
-
-  .lg\:-mt-\[136px\] {
-    margin-top: -136px;
-  }
-
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1941,11 +1873,6 @@ video {
 
   .lg\:p-0 {
     padding: 0px;
-  }
-
-  .lg\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
   }
 
   .lg\:px-4 {
