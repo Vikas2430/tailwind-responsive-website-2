@@ -1783,6 +1783,10 @@ video {
     top: 80%;
   }
 
+  .lg\:left-0 {
+    left: 0px;
+  }
+
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
