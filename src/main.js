@@ -23,7 +23,7 @@ const mobileMenuButton = document.getElementById('mobile-menu-button');
                 slidesPerView: 2,
             },
             1024: {
-                slidesPerView: 2.7,
+                slidesPerView: 3,
             },
         },
     });
